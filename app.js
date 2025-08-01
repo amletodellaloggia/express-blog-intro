@@ -16,31 +16,30 @@ app.get('/bacheca', (req, res) =>{
 			titolo: "Primo Post",
 			contenuto: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.",
 			immagine: "public/img/1.jpg",
-			tags: "#lorem"
-		},
+			tags: ['#lorem']
 		{
 			titolo: "Secondo Post",
 			contenuto: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.",
 			immagine: "public/img/2.jpg",
-			tags: "#lorem #ipsum"
+			tags: ['#lorem', '#ipsum']
 		},
 		{
 			titolo: "Terzo Post",
 			contenuto: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.",
 			immagine: "public/img/3.jpg",
-			tags: "#lorem #ipsum #dolor"
+			tags: ['#lorem', '#ipsum', '#dolor']
 		},
 		{
 			titolo: "Quarto Post",
 			contenuto: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.",
 			immagine: "public/img/4.jpg",
-			tags: "#lorem #ipsum #dolor #sit"
+			tags: ['#lorem', '#ipsum', '#dolor', '#sit']
 		},
 		{
 			titolo: "Quinto Post",
 			contenuto: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.",
 			immagine: "public/img/5.jpg",
-			tags: "#lorem #ipsum #dolor #sit #amet"
+			tags: ['#lorem', '#ipsum', '#dolor', '#sit', '#amet']
 		}
 	];
 	res.json(posts);
