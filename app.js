@@ -17,6 +17,7 @@ app.get('/bacheca', (req, res) =>{
 			contenuto: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.",
 			immagine: "public/img/1.jpg",
 			tags: ['#lorem']
+		},
 		{
 			titolo: "Secondo Post",
 			contenuto: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.",
